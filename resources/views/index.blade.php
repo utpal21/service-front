@@ -10,7 +10,7 @@
     <meta name="apple-itunes-app" content="app-id= 325629947"/>
     <meta name="Referrer" content="unsafe-url">
     
-        <title>Yellow Pages&reg; | Your Local Australian Business Directory</title>
+        <title>services</title>
     
     
         
@@ -54,7 +54,6 @@
     <link rel="apple-touch-icon" href="/apple-touch-icon-precomposed.png">
     
 
-<!-- END Akamai RUM script -->
 
     
     
@@ -77,7 +76,6 @@
     <script src="/assets/app-head-fbee2fe850a52dceea51c2ece7aef0bf.js" type="text/javascript" ></script>
 
     
-    <!-- Start Visual Website Optimizer Asynchronous Code -->
 
     
     
