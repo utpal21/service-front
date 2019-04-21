@@ -8,87 +8,22 @@
     <meta name="format-detection" content="telephone=no"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="apple-itunes-app" content="app-id= 325629947"/>
-    <meta name="Referrer" content="unsafe-url">
-    
-        <title>services</title>
-    
-    
-        
-
-    
-
-
-    
-        
-    
-
-    
-        <link rel="canonical" href="https://www.yellowpages.com.au" />
-    
-
-    
-
-    
+    <meta name="Referrer" content="unsafe-url">  
+        <title>services</title>       
+         <link rel="canonical" href="https://www.yellowpages.com.au" />    
         <meta name="ROBOTS" content="NOARCHIVE"/>
-    
-
-    
-        <meta name="google" content="nositelinkssearchbox"/>
-    
-
-    
-        <meta name="keywords" content="Australian yellow pages, local search, Australian business directory"/>
-    
-
-    
-        <meta name="description" content="Yellow Pages® has business listings, phone numbers, maps, email addresses & websites for local Australian businesses to help you get the job done."/>
-    
-    
-
-
-
-
-    
-
-    <link rel="shortcut icon" href="/favicon.ico?v=3" />
+    <meta name="google" content="nositelinkssearchbox"/>
+    <meta name="keywords" content="Australian yellow pages, local search, Australian business directory"/>
+     <meta name="description" content="Yellow Pages® has business listings, phone numbers, maps, email addresses & websites for local Australian businesses to help you get the job done."/>
+       <link rel="shortcut icon" href="/favicon.ico?v=3" />
     <link rel="apple-touch-icon" href="/apple-touch-icon-precomposed.png">
-    
-
-
-    
-    
-    
-        
-        
-        
-    
-    
-    
-
-  
-
-    <link rel="stylesheet" href="{{asset('assets/css/common-ebc1378904ffa1f8c800fd222d950e09.css')}}"/>
+        <link rel="stylesheet" href="{{asset('assets/css/common-ebc1378904ffa1f8c800fd222d950e09.css')}}"/>
     <link rel="stylesheet" href="{{asset('assets/css/app-36cffc20b5041f6eef182d79c50ed092.css')}}"/>
     <link rel="stylesheet" href="{{asset('assets/css/srp-a25dc4869432974901cdc44231fbd72b.css')}}"/>
     <link rel="stylesheet" href="{{asset('assets/css/assets/bpp-7a28004222c750904153c64676c391a5.css')}}"/>
     <link rel="stylesheet" href="{{asset('assets/css/assets/quotes-22740663b3100cf59d0ff34858645d44.css')}}"/>
-
-    <script src="/assets/app-head-fbee2fe850a52dceea51c2ece7aef0bf.js" type="text/javascript" ></script>
-
-    
-
-    
-    
-    
-    
 </head>
 <body id="">
-
-    
-        
-
-
-
 <div class="sticky-footer-layout  ">
     <div class='sticky-footer-layout-content'>
         <div class="nav-bar-home-page">
@@ -194,11 +129,7 @@
         
         <input type="text" class="input-text-input" id="clue" name="clue" value=""
                autocorrect="off"
-               autocomplete="off"
-            
-            
-            
-            
+               autocomplete="off"        
         />
     </div>
 </div>
@@ -234,9 +165,7 @@
         </div></div>
    
 </div>
-      
-
-
+    
 </body>
 </html>
 
