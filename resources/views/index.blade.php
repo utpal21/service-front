@@ -1,171 +1,301 @@
-
-
 <!DOCTYPE html>
-<html lang="en" class="no-js ">
+<html>
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta name="format-detection" content="telephone=no"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="apple-itunes-app" content="app-id= 325629947"/>
-    <meta name="Referrer" content="unsafe-url">  
-        <title>services</title>       
-         <link rel="canonical" href="https://www.yellowpages.com.au" />    
-        <meta name="ROBOTS" content="NOARCHIVE"/>
-    <meta name="google" content="nositelinkssearchbox"/>
-    <meta name="keywords" content="Australian yellow pages, local search, Australian business directory"/>
-     <meta name="description" content="Yellow Pages® has business listings, phone numbers, maps, email addresses & websites for local Australian businesses to help you get the job done."/>
-       <link rel="shortcut icon" href="/favicon.ico?v=3" />
-    <link rel="apple-touch-icon" href="/apple-touch-icon-precomposed.png">
-        <link rel="stylesheet" href="{{asset('assets/css/common-ebc1378904ffa1f8c800fd222d950e09.css')}}"/>
-    <link rel="stylesheet" href="{{asset('assets/css/app-36cffc20b5041f6eef182d79c50ed092.css')}}"/>
-    <link rel="stylesheet" href="{{asset('assets/css/srp-a25dc4869432974901cdc44231fbd72b.css')}}"/>
-    <link rel="stylesheet" href="{{asset('assets/css/assets/bpp-7a28004222c750904153c64676c391a5.css')}}"/>
-    <link rel="stylesheet" href="{{asset('assets/css/assets/quotes-22740663b3100cf59d0ff34858645d44.css')}}"/>
+<title>service</title>
+<!-- =================================== css start===================================-->
+<link href="{{asset('assets/css/bootstrap.min.css')}}" rel='stylesheet' type='text/css' />
+<!--===================================css end===================================-->
+
+<!--=================================== praxis_sb bxSlider CSS file=================================== -->
+<link href="assets/css/praxis_sb.bxslider.css" rel="stylesheet" />
+
+
+<!--=================================== icon  custom css start===================================-->
+<link rel="stylesheet" href="{{asset('themify-icons.css')}}">
+<link rel="stylesheet" href="{{asset('ie7/ie7.css')}}">
+<!---=================================== google fornt -===================================-->
+<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!---=================================== google fornt -===================================-->
+<!--=================================== icon  custom css start===================================-->
+<!--===================================praxis_sb custom css start===================================-->
+{{-- <link href="{{asset('assets/css/custom.css')}}"> --}}
+<!--===================================praxis_sb  custom css start===================================-->
+<style>
+/*=================================== praxis_sb_search ===================================-*/
+body {
+    font-family: 'Poppins';font-size: 16px;
+}
+.praxis_sb_search{
+
+
+	background-image: url("images/bg.jpg");
+height: 350px;
+
+	border: 0.5px solid gray;
+
+}
+.input-group{
+	margin-top: 150px;
+	padding: 5px;
+}
+
+/*=================================== praxis_sb_category ===================================-*/
+.praxis_sb_image{
+border-radius: 50%;
+	
+}
+.present{
+	background-color: gainsboro;
+}
+.mycolor{
+	background-color: gainsboro;
+}
+
+</style>
 </head>
-<body id="">
-<div class="sticky-footer-layout  ">
-    <div class='sticky-footer-layout-content'>
-        <div class="nav-bar-home-page">
-    <div class="clamp-widest">
-        <div class="media-object clearfix outside-gap-large image-on-right "><div class='image right '>
-                <div  class='flow-layout auth-bar home-page inside-gap inside-gap-large middle'><div class='cell first-cell' >
-        <div class="nav-single-item buy-sell-business">
-    <a href='https://www.launchable.com.au' target='_blank'>
-        <div class='text-and-image '>
-            <span class='text   '>
-                Buy or sell business
-            </span>
+<body>
+<!--===================================menu start===================================-->
+
+ <div class="navbar">
+    <nav class="navbar navbar-expand-lg shadow p-3 mb-5 bg-white rounded bg-gradient-light  fixed-top" id="bg">
+      <div class="container">
+        <a class="navbar-brand" href="index.php">BD-service</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">link</a>
+            </li>
+          </ul>
         </div>
-    </a>
-</div>
-    </div><div class='cell middle-cell' >
-        <div class="nav-single-item submit-free-listing">
-    <a href='https://www.yellow.com.au/signup' target='_blank'>
-        <div class='text-and-image '>
-            <span class='text   '>
-                List business
-            </span>
-        </div>
-    </a>
-</div>
-    </div><div class='cell middle-cell' >
-        
+      </div>
+    </nav>
+		
+	</div>
+<br>
+<!--===================================menu end===================================-->
+<!--===================================search start===================================-->
+<div class="praxis_sb_search">
+	<div class="input-group container">
+  
+		<input type="search" placeholder="Service Name"  class="form-control">
+		<input type="search" placeholder="Location" class="form-control">
+		<div class="input-group-prepend">
+			<button type="submit"><i class="ti-search"></i></button>
+			
+		</div>
+	</div>
 
-    <div class='nav-bar-user auth-bar-user'>
-        <a class='login facebook' rel="nofollow" href='/login?forwardURI=%2F' >
-            <div class='text-and-image '>
-                <span class='image  '>
-                    <span class='glyph icon-login-small'></span>
-                </span>
-                <span class='text   user-details'>Login</span>
-            </div>
-        </a>
-    </div>
-
-    </div><div class='cell last-cell' >
-        <div class="nav-burger-menu">
-    <div class="burger-menu-open">
-        <a href='javascript:void(0);'>
-            <div class='text-and-image '>
-                <span class='image  '>
-                    <span class='glyph icon-menu'></span>
-                </span>
-            </div>
-        </a>
-    </div>
-    <div class="burger-menu-close">
-        <a href='javascript:void(0);'>
-            <div class='text-and-image '>
-                <span class='image  '>
-                    <span class='glyph icon-burger-close'></span>
-                </span>
-            </div>
-        </a>
-    </div>
 </div>
-    </div></div>
-            </div><div class='body left'>
-                <a href="/" class="logo-home-page"><span ></span><span class="alt">Yellow Pages</span></a>
-            </div></div>
-    </div>
-</div>
-<div class="burger-menu-container" style="display:none">
-    <div class="burger-menu-item login-state">
-        
-<div class="profile-status burger-login">
-    <div class="profile-status-element left">
-        <span class="login-icon-background"><span class="glyph icon-burger-profile-avatar-large"></span></span>
-        <span class="burger-menu-login"><a class="login.facebook" rel="nofollow"
-                                           href='/login?forwardURI=%2F'>Login</a>
-        </span>
-    </div>
-</div>
-    </div>
-    <a class="burger-cta" href="/"><div class="burger-menu-item sub-item">Home</div></a>
-    <a class="burger-cta" href="/quotes"><div class="burger-menu-item sub-item">Get Quotes</div></a>
-    <a class="burger-cta" href="/review" target="_blank"><div class="burger-menu-item sub-item">Review a business</div></a>
-    <div class="burger-menu-item gray-background">For Businesses</div>
-    <a class="burger-cta" href="https://www.yellow.com.au/" target="_blank"><div class="burger-menu-item sub-item">View our products</div></a>
-    <a class="burger-cta" href='https://www.launchable.com.au' target="_blank"><div class="burger-menu-item sub-item">Buy or sell business</div></a>
-    <a class="burger-cta" href='https://www.yellow.com.au/signup' target="_blank"><div class="burger-menu-item sub-item">List business</div></a>
-    <a class="burger-cta" href="https://accounts.sensis.com.au/myaccount/" target="_blank"><div class="burger-menu-item sub-item">myAccount</div></a>
-    <div class="burger-menu-item gray-background myAccount-description">
-        <p>Use myAccount to view your reporting and bills, manage your content and update your profile.</p>
-    </div>
-</div>
-        
-<div class="search-bar-home-page">
-    <div  class='flow-layout liquid-even-width middle'><div class='cell first-cell last-cell' >
-            <form action="/search/listings" method="GET" class="search-fields search-form">
-                <div class='search-field-layout clearfix'><div class='search-field-layout-cell search-field-layout-field-one'><div class='search-field-layout-inner-cell what'>
-                        
+<br>
+<!--===================================search end===================================-->
 
 
-<div class="liquid-input-text auto-focus">
-    <div class="padding">
-        
-            <label for="clue">Business type or name</label>
-        
-        <input type="text" class="input-text-input" id="clue" name="clue" value=""
-               autocorrect="off"
-               autocomplete="off"        
-        />
-    </div>
+<!--===================================category strat===================================-->
+<!-- <ul class="bxslider">
+		<li> <a href="#multiCollapseExample1" data-toggle="collapse"><img src="images/sample-image.jpg"  />
+		<p>link</p></a>
+		 </li>
+		 <li> <a href="#multiCollapseExample1" data-toggle="collapse"><img src="images/sample-image.jpg" />
+			<p>link</p></a>
+			 </li>
+			 <li> <a href=""><img src="images/sample-image.jpg" />
+				<p>link</p></a>
+				 </li>
+				 <li> <a href=""><img src="images/sample-image.jpg" />
+					<p>link</p></a>
+					 </li>
+					 <li> <a href=""><img src="images/sample-image.jpg" />
+						<p>link</p></a>
+						 </li>
+						 <li> <a href=""><img src="images/sample-image.jpg" />
+							<p>link</p></a>
+							 </li>
+							 <li> <a href=""><img src="images/sample-image.jpg" />
+								<p>link</p></a>
+								 </li>
+								 <li> <a href=""><img src="images/sample-image.jpg" />
+									<p>link</p></a>
+									 </li>
+									 <li> <a href=""><img src="images/sample-image.jpg" />
+										<p>link</p></a>
+										 </li>
+										 <li> <a href=""><img src="images/sample-image.jpg" />
+											<p>link</p></a>
+											 </li>
+
+	</ul> -->
+	<div class="container d-flex justify-content-center ">
+<ul class="nav">
+	<li class="nav-item"><a class="" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="fa fa-balance-scale" style="font-size:60px;color:gray;margin-left: 2px;"></i><p>Best deal</p>
+	
+		</a></li>&nbsp;&nbsp;
+		<li class="nav-item"><a class="" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="fa fa-briefcase" style="font-size:60px;color:forestgreen;margin-left: 35px;"></i><p>Beauty Services</p>
+			</a></li>&nbsp;&nbsp;&nbsp;
+			<li class="nav-item"><a class="" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="fa fa-birthday-cake" style="font-size:60px;color:rgb(119, 161, 56)"></i><p>Food</p>
+			</a></li>&nbsp;&nbsp;&nbsp;
+			<li class="nav-item"><a class="" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="fa fa-bus" style="font-size:60px;color:peru;margin-left: 20px;"></i><p> Services2</p>
+			</a></li>&nbsp;&nbsp;&nbsp;
+			<li class="nav-item"><a class="" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="fa fa-cogs" style="font-size:60px;color:khaki"></i><p> Services3</p>
+			</a></li>&nbsp;&nbsp;&nbsp;
+			<li class="nav-item"><a class="" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="fa fa-bed" style="font-size:60px;color:mediumturquoise"></i><p>Services5</p>
+			</a></li>&nbsp;&nbsp;&nbsp;
+			<li class="nav-item"><a class="" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="fa fa-bank" style="font-size:60px;color:greenyellow"></i><p>Services6</p>
+			</a></li>&nbsp;&nbsp;
+			<li class="nav-item"><a class="" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="fa fa-bicycle" style="font-size:60px;color:khaki"></i><p> Services7</p>
+			</a></li>&nbsp;&nbsp;
+			
+</ul>
+	
+		
+									</div>
+
+<div class="collapse multi-collapse praxis_sb_category container mycolor"  id="multiCollapseExample1">
+		<table class="table text-center d-flex">
+
+<tr>
+	<td>
+		<a href=""> <i class="ti-hand-point-up"></i>Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+		<a href=""> <i class="ti-hand-point-up"></i>Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+			<a href=""> <i class="ti-hand-point-up"></i>Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+				<a href=""> <i class="ti-hand-point-up"></i>Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+					<a href=""> <i class="ti-hand-point-up"></i>Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+						<a href=""> <i class="ti-hand-point-up"></i>Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+							<a href=""> <i class="ti-hand-point-up"></i>Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+
+	</td>
+	<td>
+			<a href=""><i class="ti-hand-point-up"></i>Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+		<a href=""><i class="ti-hand-point-up"></i>Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+		<a href=""><i class="ti-hand-point-up"></i>Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+		<a href=""><i class="ti-hand-point-up"></i>Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+		<a href=""><i class="ti-hand-point-up"></i>Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+		<a href=""><i class="ti-hand-point-up"></i>Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+		<a href=""><i class="ti-hand-point-up"></i>Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+
+	</td>
+	<td>
+	<a href=""><i class="ti-hand-point-up"></i>Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+	<a href=""><i class="ti-hand-point-up"></i>Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+	<a href=""><i class="ti-hand-point-up"></i>Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+	<a href=""><i class="ti-hand-point-up"></i>Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+	<a href=""><i class="ti-hand-point-up"></i>Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+	<a href=""><i class="ti-hand-point-up"></i>Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+
+	</td>
+</tr>
+
+		</table>
 </div>
-                    </div></div><div class='search-field-layout-cell search-field-layout-field-two'><div class='search-field-layout-inner-cell where'>
-                        <div class=" where">
-    
 
 
-<div class="liquid-input-text location-clue-field">
-    <div class="padding">
-        
-            <label for="where">Suburb or Postcode</label>
-        
-        <input type="text" class="input-text-input" id="where" name="locationClue" value=""
-               autocorrect="off"
-               autocomplete="off"
-            
-            
-            
-            
-        />
+
+	<!--===================================category end===================================-->
+<div class="container">
+<div class="container">
+  <h2 class="text-center">Top Featured Providers</h2>
+  
+  <div class="card-columns">
+    <div class="card">
+      <div class="card-body text-center">
+				<img src="{{ asset('images/profile-pic.jpg') }}" class="praxis_sb_image"  height="150px" alt="">
+        <p class="card-text">Some text inside the first card</p>
+      </div>
     </div>
+    <div class="card">
+      <div class="card-body text-center">
+					<img src="images/profile-pic.jpg" class="praxis_sb_image"  height="150px" alt="">
+        <p class="card-text">Some text inside the second card</p>
+      </div>
+    </div>
+    <div class="card ">
+      <div class="card-body text-center">
+					<img src="images/profile-pic.jpg"  class="praxis_sb_image" height="150px" alt="">
+
+        <p class="card-text">Some text inside the third card</p>
+      </div>
+    </div>
+    <div class="card ">
+      <div class="card-body text-center">
+					<img src="images/profile-pic.jpg" class="praxis_sb_image" height="150px" alt="">
+        <p class="card-text">Some text inside the fourth card</p>
+      </div>
+    </div>  
+    <div class="card ">
+      <div class="card-body text-center">
+					<img src="images/profile-pic.jpg" class="praxis_sb_image"  height="150px" alt="">
+        <p class="card-text">Some text inside the fifth card</p>
+      </div>
+    </div>
+    <div class="card ">
+      <div class="card-body text-center">
+					<img src="images/profile-pic.jpg"  class="praxis_sb_image" height="150px" alt="">
+        <p class="card-text">Some text inside the sixth card</p>
+      </div>
+    </div>
+  </div>
 </div>
-    <input type="hidden" name="lat" class="lat" value="" id="lat" />
-    <input type="hidden" name="lon" class="lon" value="" id="lon" />
 </div>
-                    </div></div><div class='search-field-layout-cell search-field-layout-button'><div class='search-field-layout-inner-cell'>
-                        <button title="Search" type="submit" class="button equilateral-button button-search">
-                            <span class='glyph icon-search size-medium'></span>
-                        </button>
-                    </div></div></div>
-            </form>
-        </div></div>
-   
-</div>
+
+<!--=================================== praxis_sb bxSlider Javascript file start=================================== -->
+<script src="assets/js/jquery3.0.1.js"></script>
+<!-- <script src="assets/js/praxis_sb.bxslider.js"></script>
+<script>
+	$(document).ready(function(){
+		$('.bxslider').bxSlider({
+			mode: 'horizontal',
+			moveSlides: 1,
+			slideMargin: 40,
+			infiniteLoop: true,
+			slideWidth: 660,
+			minSlides: 10,
+			maxSlides: 10,
+			speed: 800,
+			// ticker:true,
+			// tickerHover :true
+			controls:true,
+			nextText:'Next',
+			prevText: 'Prev'
+		});
+
+	});
+</script> -->
+<script>
+	$(document).ready(function (e) {
+		$('li > a').click(function() {
+    $('li.present').removeClass('present');
+    $(this).closest('li').addClass('present');
+
+});
+	})
+
+</script>
+
+<!--=================================== praxis_sb bxSlider Javascript file end =================================== -->
+ 
+
+<!-- Bootstrap core JavaScript -->  
+  <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
     
 </body>
 </html>
-
