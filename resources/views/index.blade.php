@@ -15,6 +15,7 @@
 <link rel="stylesheet" href="{{asset('ie7/ie7.css')}}">
 <!---=================================== google fornt -===================================-->
 <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <!---=================================== google fornt -===================================-->
 <!--=================================== icon  custom css start===================================-->
@@ -24,7 +25,7 @@
 <style>
 /*=================================== praxis_sb_search ===================================-*/
 body {
-    font-family: 'Poppins';font-size: 16px;
+    font-family: 'Poppins';font-size: 15px;
 }
 .praxis_sb_search{
 
