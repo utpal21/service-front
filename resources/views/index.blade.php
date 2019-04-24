@@ -354,7 +354,7 @@ body {
 <!--===================================Latest Service Providers end===================================-->
 
 <!--===================================footer start===================================--> 
-<div class="bg-dark">
+<div class="bg">
 <div class="row text-white p-4">
 	<div class="col-3">
 		<h5>CONTACT</h5>
