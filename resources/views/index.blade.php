@@ -30,7 +30,10 @@ body {
 		font-family: Poppins,sans-serif;
 		 font-size: 14px;
 }
-
+h2{
+	font-family: Poppins,sans-serif;
+		 font-size: 20px;
+}
 .praxis_sb_search{
 
 
@@ -358,27 +361,29 @@ body {
 <div class="row text-white p-4">
 	<div class="col-3">
 		<h5>CONTACT</h5>
-		<p>16516 or 09678-016516</p>
+		<p> 16516 or 09678-016516</p>
 		<p>info@sheba.xyz</p>
 		<p>DevoTech Technology Park 
 				Level 1, House 11, Road 113/A Gulshan 2, Dhaka - 1212, Bangladesh</p>
 	</div>
 	<div class="col-3 text-white">
 		  <p >   Services       </p>
-		 <p> Fixed Price Beaut </p>
-		 <p> Exclusive Beauty </a> </p>
-		 <p> Sheba Aparajita C </p>
-		 <p>  Salon Services </p>
-		 <p> Body Therapy & We </p>
+		 <p><a href="" class="text-white"> Fixed Price Beaut </a></p>
+		 <p><a href="" class="text-white">  Exclusive Beauty </a> </p>
+		 <p><a href="" class="text-white">  Sheba Aparajita C </a></p>
+		 <p><a href="" class="text-white">  Salon Services </a></p>
+		
+		 <p><a href="" class="text-white"> Body Therapy & We </a></p>
 		 
 	</div>
 	<div class="col-3">
-			<p>Appliance Repair</p> 
-			<p>Repair & Servicing @ F..</p> 
-			<p>Split AC Service</p> 
-			<p>AC Service & Repair</p> 
-			<p>TV (LCD/LED) servicin..</p> 
-			<p>Refrigerator Servicing</p> 
+			<p >   Services       </p>
+			<p><a href="" class="text-white">Appliance Repair</a></p> 
+			<p><a href="" class="text-white">Repair & Servicing @ F..</a></p> 
+			<p><a href="" class="text-white">Split AC Service</a></p> 
+			<p><a href="" class="text-white">AC Service & Repair</a></p> 
+			<p><a href="" class="text-white">TV (LCD/LED) servicin..</a></p> 
+			<p><a href="" class="text-white">Refrigerator Servicing</a></p> 
 			
 	</div>
 	<div class="col-3">
@@ -431,4 +436,4 @@ body {
   <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
     
 </body>
-</html>
+</html>    
