@@ -15,42 +15,26 @@
 <link rel="stylesheet" href="{{asset('ie7/ie7.css')}}">
 <!---=================================== google fornt -===================================-->
 <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+<link href="https://fonts.googleapis.com/css?family=Hind+Siliguri:300,400,500,600,700|Poppins:300,400,500,600,700|Roboto:300,400,500,700" rel=stylesheet>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <!---=================================== google fornt -===================================-->
 <!--=================================== icon  custom css start===================================-->
 <!--===================================praxis_sb custom css start===================================-->
-{{-- <link href="{{asset('assets/css/custom.css')}}"> --}}
+<link href="{{asset('assets/css/custom.css')}}" rel='stylesheet' type='text/css' />
+
 <!--===================================praxis_sb  custom css start===================================-->
 <style>
 /*=================================== praxis_sb_search ===================================-*/
 body {
-    font-family: 'Poppins';font-size: 15px;
+		font-family: Poppins,sans-serif;
+		 font-size: 14px;
 }
+
 .praxis_sb_search{
 
 
 	background-image: url("images/bg.jpg");
-height: 350px;
-
-	border: 0.5px solid gray;
-
-}
-.input-group{
-	margin-top: 150px;
-	padding: 5px;
-}
-
-/*=================================== praxis_sb_category ===================================-*/
-.praxis_sb_image{
-border-radius: 50%;
-	
-}
-.present{
-	background-color: gainsboro;
-}
-.mycolor{
-	background-color: gainsboro;
 }
 
 </style>
@@ -79,13 +63,13 @@ border-radius: 50%;
               <a class="nav-link" href="#">link</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">link</a>
+              <a class="nav-link" href="#">Agargaon, Sher-e-B..</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">link</a>
+              <a class="nav-link" href="#">Call 16516</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">link</a>
+              <a class="nav-link" href="#">Login</a>
             </li>
           </ul>
         </div>
@@ -171,8 +155,8 @@ border-radius: 50%;
 		
 									</div>
 
-<div class="collapse multi-collapse praxis_sb_category container mycolor"  id="multiCollapseExample1">
-		<table class="table text-center d-flex">
+<div class="collapse multi-collapse praxis_sb_category  container mycolor"  id="multiCollapseExample1">
+		<table class="table d-flex ">
 
 <tr>
 	<td>
@@ -207,57 +191,205 @@ border-radius: 50%;
 </tr>
 
 		</table>
-</div>
+</div><br>
 
 
 
 	<!--===================================category end===================================-->
+
+<!--===================================Top Featured Providers start===================================-->
 <div class="container">
-<div class="container">
-  <h2 class="text-center">Top Featured Providers</h2>
+  <h2 class="">Top Featured Providers</h2>
   
   <div class="card-columns">
     <div class="card">
+			<a href="">
       <div class="card-body text-center">
 				<img src="{{ asset('images/profile-pic.jpg') }}" class="praxis_sb_image"  height="150px" alt="">
         <p class="card-text">Some text inside the first card</p>
-      </div>
+			</div>
+		</a>
     </div>
     <div class="card">
+			<a href="">
       <div class="card-body text-center">
 					<img src="images/profile-pic.jpg" class="praxis_sb_image"  height="150px" alt="">
         <p class="card-text">Some text inside the second card</p>
-      </div>
+			</div>
+		</a>
     </div>
     <div class="card ">
+			<a href="">
       <div class="card-body text-center">
 					<img src="images/profile-pic.jpg"  class="praxis_sb_image" height="150px" alt="">
 
         <p class="card-text">Some text inside the third card</p>
-      </div>
+			</div>
+		</a>
     </div>
     <div class="card ">
+			<a href="">
       <div class="card-body text-center">
 					<img src="images/profile-pic.jpg" class="praxis_sb_image" height="150px" alt="">
         <p class="card-text">Some text inside the fourth card</p>
-      </div>
+			</div>
+		</a>
     </div>  
     <div class="card ">
+			<a href="">
       <div class="card-body text-center">
 					<img src="images/profile-pic.jpg" class="praxis_sb_image"  height="150px" alt="">
         <p class="card-text">Some text inside the fifth card</p>
-      </div>
+			</div>
+		</a>
     </div>
     <div class="card ">
+			<a href="">
       <div class="card-body text-center">
 					<img src="images/profile-pic.jpg"  class="praxis_sb_image" height="150px" alt="">
         <p class="card-text">Some text inside the sixth card</p>
-      </div>
-    </div>
+			</div>
+		</a>
+		</div>
+		
   </div>
+</div><br>
+<!--===================================Top Featured Providers end===================================-->
+
+<!--===================================Latest Service Providers start===================================-->
+
+{{-- step-1 --}}
+<div class="container">
+		<h5 class="">Latest Service Providers</h5>
+  <div class="card-deck">
+    <div class="card bg-primary">
+			<a href="">
+      <div class="card-body text-center">
+					<img src="{{ asset('images/service-icon-0.png') }}"   height="150px" alt="">
+        <p class="card-text">Some more text to increase the height</p>
+			</div>
+		</a>
+    </div>
+    <div class="card bg-warning">
+			<a href="">
+      <div class="card-body text-center">
+					<img src="{{ asset('images/service-icon-0.png') }}"   height="150px" alt="">
+        <p class="card-text">Some text inside the second card</p>
+			</div>
+		</a>
+    </div>
+    <div class="card bg-success">
+			<a href="">
+      <div class="card-body text-center">
+					<img src="{{ asset('images/service-icon-0.png') }}"   height="150px" alt="">
+        <p class="card-text">Some text inside the third card</p>
+			</div>
+		</a>
+    </div>
+    <div class="card bg-danger">
+			<a href="">
+      <div class="card-body text-center">
+					<img src="{{ asset('images/service-icon-0.png') }}"   height="150px" alt="">
+        <p class="card-text">Some text inside the fourth card</p>
+			</div>
+		</a>
+		</div>  
+		<div class="card bg-danger">
+				<a href="">
+				<div class="card-body text-center">
+						<img src="{{ asset('images/service-icon-0.png') }}"   height="150px" alt="">
+					<p class="card-text">Some text inside the fourth card</p>
+				</div>
+			</a>
+			</div> 
+  </div>
+</div><br>
+
+{{-- step-2 --}}
+<div class="container">
+  
+		<div class="card-deck">
+			<div class="card bg-primary">
+				<a href="">
+				<div class="card-body text-center">
+						<img src="{{ asset('images/service-icon-0.png') }}"   height="150px" alt="">
+					<p class="card-text">Some more text to increase the height</p>
+				</div>
+			</a>
+			</div>
+			<div class="card bg-warning">
+				<a href="">
+				<div class="card-body text-center">
+						<img src="{{ asset('images/service-icon-0.png') }}"   height="150px" alt="">
+					<p class="card-text">Some text inside the second card</p>
+				</div>
+			</a>
+			</div>
+			<div class="card bg-success">
+				<a href="">
+				<div class="card-body text-center">
+						<img src="{{ asset('images/service-icon-0.png') }}"   height="150px" alt="">
+					<p class="card-text">Some text inside the third card</p>
+				</div>
+			</a>
+			</div>
+			<div class="card bg-danger">
+				<a href="">
+				<div class="card-body text-center">
+						<img src="{{ asset('images/service-icon-0.png') }}"   height="150px" alt="">
+					<p class="card-text">Some text inside the fourth card</p>
+				</div>
+			</a>
+			</div>  
+			<div class="card bg-danger">
+					<a href="">
+					<div class="card-body text-center">
+							<img src="{{ asset('images/service-icon-0.png') }}"   height="150px" alt="">
+						<p class="card-text">Some text inside the fourth card</p>
+					</div>
+				</a>
+				</div> 
+		</div>
+	</div><br>
+<!--===================================Latest Service Providers end===================================-->
+
+<!--===================================footer start===================================--> 
+<div class="bg-dark">
+<div class="row text-white p-4">
+	<div class="col-3">
+		<h5>CONTACT</h5>
+		<p>16516 or 09678-016516</p>
+		<p>info@sheba.xyz</p>
+		<p>DevoTech Technology Park 
+				Level 1, House 11, Road 113/A Gulshan 2, Dhaka - 1212, Bangladesh</p>
+	</div>
+	<div class="col-3 text-white">
+		  <p >   Services       </p>
+		 <p> Fixed Price Beaut </p>
+		 <p> Exclusive Beauty </a> </p>
+		 <p> Sheba Aparajita C </p>
+		 <p>  Salon Services </p>
+		 <p> Body Therapy & We </p>
+		 
+	</div>
+	<div class="col-3">
+			<p>Appliance Repair</p> 
+			<p>Repair & Servicing @ F..</p> 
+			<p>Split AC Service</p> 
+			<p>AC Service & Repair</p> 
+			<p>TV (LCD/LED) servicin..</p> 
+			<p>Refrigerator Servicing</p> 
+			
+	</div>
+	<div class="col-3">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.894682644618!2d90.37492551428865!3d23.786764384571438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c724b592eda3%3A0xcb28fee4071c39f8!2sPraxis+Training+Technology+%26+Consultancy!5e0!3m2!1sbn!2sbd!4v1556089726461!5m2!1sbn!2sbd" width="250" height="230" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</div>
 </div>
 </div>
 
+
+
+<!--===================================footer end===================================-->
 <!--=================================== praxis_sb bxSlider Javascript file start=================================== -->
 <script src="assets/js/jquery3.0.1.js"></script>
 <!-- <script src="assets/js/praxis_sb.bxslider.js"></script>
