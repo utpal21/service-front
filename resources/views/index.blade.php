@@ -25,7 +25,7 @@
 
 <!--===================================praxis_sb  custom css start===================================-->
 <style>
-/*=================================== praxis_sb_search ===================================-*/
+
 body {
 		font-family: Poppins,sans-serif;
 		 font-size: 14px;
@@ -34,6 +34,7 @@ h2{
 	font-family: Poppins,sans-serif;
 		 font-size: 20px;
 }
+/*=================================== praxis_sb_search ===================================-*/
 .praxis_sb_search{
 
 
@@ -163,32 +164,32 @@ h2{
 
 <tr>
 	<td>
-		<a href=""> <i class="ti-hand-point-up"></i>Both Hand Mehendi @BDT 190 ONLY!!</a><br>
-		<a href=""> <i class="ti-hand-point-up"></i>Both Hand Mehendi @BDT 190 ONLY!!</a><br>
-			<a href=""> <i class="ti-hand-point-up"></i>Both Hand Mehendi @BDT 190 ONLY!!</a><br>
-				<a href=""> <i class="ti-hand-point-up"></i>Both Hand Mehendi @BDT 190 ONLY!!</a><br>
-					<a href=""> <i class="ti-hand-point-up"></i>Both Hand Mehendi @BDT 190 ONLY!!</a><br>
-						<a href=""> <i class="ti-hand-point-up"></i>Both Hand Mehendi @BDT 190 ONLY!!</a><br>
-							<a href=""> <i class="ti-hand-point-up"></i>Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+		<a href=""> Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+		<a href=""> Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+		<a href=""> Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+		<a href=""> Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+		<a href=""> Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+		<a href=""> Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+		<a href=""> Both Hand Mehendi @BDT 190 ONLY!!</a><br>
 
 	</td>
 	<td>
-			<a href=""><i class="ti-hand-point-up"></i>Both Hand Mehendi @BDT 190 ONLY!!</a><br>
-		<a href=""><i class="ti-hand-point-up"></i>Both Hand Mehendi @BDT 190 ONLY!!</a><br>
-		<a href=""><i class="ti-hand-point-up"></i>Both Hand Mehendi @BDT 190 ONLY!!</a><br>
-		<a href=""><i class="ti-hand-point-up"></i>Both Hand Mehendi @BDT 190 ONLY!!</a><br>
-		<a href=""><i class="ti-hand-point-up"></i>Both Hand Mehendi @BDT 190 ONLY!!</a><br>
-		<a href=""><i class="ti-hand-point-up"></i>Both Hand Mehendi @BDT 190 ONLY!!</a><br>
-		<a href=""><i class="ti-hand-point-up"></i>Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+			<a href="" >Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+		<a href="">   Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+		<a href="">   Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+		<a href="">   Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+		<a href="">   Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+		<a href="">   Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+		<a href="">   Both Hand Mehendi @BDT 190 ONLY!!</a><br>
 
 	</td>
 	<td>
-	<a href=""><i class="ti-hand-point-up"></i>Both Hand Mehendi @BDT 190 ONLY!!</a><br>
-	<a href=""><i class="ti-hand-point-up"></i>Both Hand Mehendi @BDT 190 ONLY!!</a><br>
-	<a href=""><i class="ti-hand-point-up"></i>Both Hand Mehendi @BDT 190 ONLY!!</a><br>
-	<a href=""><i class="ti-hand-point-up"></i>Both Hand Mehendi @BDT 190 ONLY!!</a><br>
-	<a href=""><i class="ti-hand-point-up"></i>Both Hand Mehendi @BDT 190 ONLY!!</a><br>
-	<a href=""><i class="ti-hand-point-up"></i>Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+	<a href="">Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+	<a href="">Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+	<a href="">Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+	<a href="">Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+	<a href="">Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+	<a href="">Both Hand Mehendi @BDT 190 ONLY!!</a><br>
 
 	</td>
 </tr>
@@ -208,15 +209,16 @@ h2{
     <div class="card">
 			<a href="">
       <div class="card-body text-center">
-				<img src="{{ asset('images/profile-pic.jpg') }}" class="praxis_sb_image"  height="150px" alt="">
+				<img src="{{ asset('images/1554123342_standard_on_demand_driver.png') }}" class="praxis_sb_image"  height="150px" alt="">
         <p class="card-text">Some text inside the first card</p>
 			</div>
 		</a>
-    </div>
+		</div>
+		
     <div class="card">
 			<a href="">
       <div class="card-body text-center">
-					<img src="images/profile-pic.jpg" class="praxis_sb_image"  height="150px" alt="">
+					<img src="{{ asset('images/1554091991_best_deal_for_frozen_snacks.png') }}" class="praxis_sb_image"  height="150px" alt="">
         <p class="card-text">Some text inside the second card</p>
 			</div>
 		</a>
@@ -224,7 +226,7 @@ h2{
     <div class="card ">
 			<a href="">
       <div class="card-body text-center">
-					<img src="images/profile-pic.jpg"  class="praxis_sb_image" height="150px" alt="">
+					<img src="{{ asset('images/1554021267_best_deal_for_dry_wash.png') }}"  class="praxis_sb_image" height="150px" alt="">
 
         <p class="card-text">Some text inside the third card</p>
 			</div>
@@ -233,7 +235,7 @@ h2{
     <div class="card ">
 			<a href="">
       <div class="card-body text-center">
-					<img src="images/profile-pic.jpg" class="praxis_sb_image" height="150px" alt="">
+					<img src="{{ asset('images/1554050553_best_deal_for_ac.png') }}" class="praxis_sb_image" height="150px" alt="">
         <p class="card-text">Some text inside the fourth card</p>
 			</div>
 		</a>
@@ -241,7 +243,7 @@ h2{
     <div class="card ">
 			<a href="">
       <div class="card-body text-center">
-					<img src="images/profile-pic.jpg" class="praxis_sb_image"  height="150px" alt="">
+					<img src="{{ asset('images/1554123342_standard_on_demand_driver.png') }}" class="praxis_sb_image"  height="150px" alt="">
         <p class="card-text">Some text inside the fifth card</p>
 			</div>
 		</a>
@@ -249,7 +251,7 @@ h2{
     <div class="card ">
 			<a href="">
       <div class="card-body text-center">
-					<img src="images/profile-pic.jpg"  class="praxis_sb_image" height="150px" alt="">
+					<img src="{{ asset('images/1554050553_best_deal_for_ac.png') }}"  class="praxis_sb_image" height="150px" alt="">
         <p class="card-text">Some text inside the sixth card</p>
 			</div>
 		</a>
@@ -265,42 +267,42 @@ h2{
 <div class="container">
 		<h5 class="">Latest Service Providers</h5>
   <div class="card-deck">
-    <div class="card bg-primary">
+    <div class="card">
 			<a href="">
       <div class="card-body text-center">
-					<img src="{{ asset('images/service-icon-0.png') }}"   height="150px" alt="">
+					<img src="{{ asset('images/150 (1).jpg') }}"   height="150px" alt="">
         <p class="card-text">Some more text to increase the height</p>
 			</div>
 		</a>
     </div>
-    <div class="card bg-warning">
+    <div class="card ">
 			<a href="">
       <div class="card-body text-center">
-					<img src="{{ asset('images/service-icon-0.png') }}"   height="150px" alt="">
+					<img src="{{ asset('images/150 (2).jpg') }}"   height="150px" alt="">
         <p class="card-text">Some text inside the second card</p>
 			</div>
 		</a>
     </div>
-    <div class="card bg-success">
+    <div class="card">
 			<a href="">
       <div class="card-body text-center">
-					<img src="{{ asset('images/service-icon-0.png') }}"   height="150px" alt="">
+					<img src="{{ asset('images/150 (3).jpg') }}"   height="150px" alt="">
         <p class="card-text">Some text inside the third card</p>
 			</div>
 		</a>
     </div>
-    <div class="card bg-danger">
+    <div class="card bg-white">
 			<a href="">
       <div class="card-body text-center">
-					<img src="{{ asset('images/service-icon-0.png') }}"   height="150px" alt="">
+					<img src="{{ asset('images/150.jpg') }}"   height="150px" alt="">
         <p class="card-text">Some text inside the fourth card</p>
 			</div>
 		</a>
 		</div>  
-		<div class="card bg-danger">
+		<div class="card">
 				<a href="">
 				<div class="card-body text-center">
-						<img src="{{ asset('images/service-icon-0.png') }}"   height="150px" alt="">
+						<img src="{{ asset('images/app_thumbnail.jpg') }}"   height="150px" alt="">
 					<p class="card-text">Some text inside the fourth card</p>
 				</div>
 			</a>
@@ -308,52 +310,7 @@ h2{
   </div>
 </div><br>
 
-{{-- step-2 --}}
-<div class="container">
-  
-		<div class="card-deck">
-			<div class="card bg-primary">
-				<a href="">
-				<div class="card-body text-center">
-						<img src="{{ asset('images/service-icon-0.png') }}"   height="150px" alt="">
-					<p class="card-text">Some more text to increase the height</p>
-				</div>
-			</a>
-			</div>
-			<div class="card bg-warning">
-				<a href="">
-				<div class="card-body text-center">
-						<img src="{{ asset('images/service-icon-0.png') }}"   height="150px" alt="">
-					<p class="card-text">Some text inside the second card</p>
-				</div>
-			</a>
-			</div>
-			<div class="card bg-success">
-				<a href="">
-				<div class="card-body text-center">
-						<img src="{{ asset('images/service-icon-0.png') }}"   height="150px" alt="">
-					<p class="card-text">Some text inside the third card</p>
-				</div>
-			</a>
-			</div>
-			<div class="card bg-danger">
-				<a href="">
-				<div class="card-body text-center">
-						<img src="{{ asset('images/service-icon-0.png') }}"   height="150px" alt="">
-					<p class="card-text">Some text inside the fourth card</p>
-				</div>
-			</a>
-			</div>  
-			<div class="card bg-danger">
-					<a href="">
-					<div class="card-body text-center">
-							<img src="{{ asset('images/service-icon-0.png') }}"   height="150px" alt="">
-						<p class="card-text">Some text inside the fourth card</p>
-					</div>
-				</a>
-				</div> 
-		</div>
-	</div><br>
+
 <!--===================================Latest Service Providers end===================================-->
 
 <!--===================================footer start===================================--> 

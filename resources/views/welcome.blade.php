@@ -97,3 +97,12 @@
         </div>
     </body>
 </html>
+<link rel="stylesheet" href="{{asset('assets/css/common-ebc1378904ffa1f8c800fd222d950e09.css')}}"/>
+<link rel="stylesheet" href="{{asset('assets/css/app-36cffc20b5041f6eef182d79c50ed092.css')}}"/>
+<link rel="stylesheet" href="{{asset('assets/css/srp-a25dc4869432974901cdc44231fbd72b.css')}}"/>
+<link rel="stylesheet" href="{{asset('assets/css/assets/bpp-7a28004222c750904153c64676c391a5.css')}}"/>
+<link rel="stylesheet" href="{{asset('assets/css/assets/quotes-22740663b3100cf59d0ff34858645d44.css')}}"/>
+<link rel="stylesheet" href="{{asset('assets/css/bootstrap.min.css')}}" >
+
+
+<script src="{{ asset('assets/js/app-head-fbee2fe850a52dceea51c2ece7aef0bf.js')"type="text/javascript"></script> }}

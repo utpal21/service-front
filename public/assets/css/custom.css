@@ -17,7 +17,7 @@ height: 350px;
 
 /*=================================== praxis_sb_category ===================================-*/
 .praxis_sb_image{
-border-radius: 50%;
+
 	
 }
 .present{
@@ -31,3 +31,21 @@ border-radius: 50%;
 .bg{
 	background-color: #333;
 }
+/*=================================== praxis_sb_service provider ===================================-*/
+.praxis-sb-myimages{
+	border-radius: 50%;
+}
+.praxis-sb-check{
+	margin-top: 25px;
+}
+
+.praxis-sb-provider{
+	height: 500px;
+	width: 60%;
+	margin: 0 auto;
+}
+/*=================================== praxis_sb_subcategory ===================================-*/
+.praxis-sb-subcat {
+	height: 350px;
+	width: 65%;
+	margin: 0 auto;
