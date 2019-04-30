@@ -38,7 +38,7 @@ h2{
 .praxis_sb_search{
 
 
-	background-image: url("images/bg.jpg");
+	background-image: linear-gradient(0deg,#11c9e1 25%,#0798bf);
 }
 
 </style>

@@ -15,19 +15,19 @@
             window.scrollTo(0, 1);
         }
     </script>
-    <!-- //Meta-Tags -->
-    <!-- Index-Page-CSS -->
+    <!-- Praxis-sb Meta-Tags -->
+    <!--Praxis-sb Index-Page-CSS -->
     <link rel="stylesheet" href="{{asset('assets/admin_writer/css/style.css')}}" type="text/css" media="all">
-    <!-- //Custom-Stylesheet-Links -->
+    <!-- Praxis-sbCustom-Stylesheet-Links -->
     <!--fonts -->
     <!-- //fonts -->
     <link rel="stylesheet" href="{{asset('assets/admin_writer/css/font-awesome.min.css')}}" type="text/css" media="all">
     <!-- //Font-Awesome-File-Links -->
 	
-	<!-- Google fonts -->
+	<!-- Praxis-sb Google fonts -->
 	<link href="//fonts.googleapis.com/css?family=Quattrocento+Sans:400,400i,700,700i" rel="stylesheet">
 	<link href="//fonts.googleapis.com/css?family=Mukta:200,300,400,500,600,700,800" rel="stylesheet">
-	<!-- Google fonts -->
+	<!-- Praxis-sb Google fonts -->
 
 </head>
 <!-- //Head -->
@@ -35,12 +35,12 @@
 
 <body>
 
-<section class="main">
-	<div class="layer">
-		
-		<div class="bottom-grid">
-			<div class="logo">
-				<h1> <a href="index.html"><span class="fa fa-key"></span> Key</a></h1>
+<section class="praxis-sb-main">
+	<div class="praxis-sb-layer">
+		<!--===================================praxis_sb  admin menu start ===================================-->
+		<div class="praxis-sb-bottom-grid">
+			<div class="praxis-sb-logo">
+				<h1> <a href="index.html"><span class="fa fa-key"></span> Praxis</a></h1>
 			</div>
 			<div class="links">
 				<ul class="links-unordered-list">
@@ -59,8 +59,12 @@
 				</ul>
 			</div>
 		</div>
-		<div class="content-w3ls">
-            <div class=""> {{ isset($url) ? ucwords($url) : ""}} {{ __('Register') }}</div>            
+		 <!--===================================praxis_sb  admin menu end ===================================-->
+	   
+		  
+		  <!--===================================praxis_sb  admin register form start ===================================-->
+		<div class="praxis-sb-content-w3ls">
+            <div class="text-center "> {{ isset($url) ? ucwords($url) : ""}} {{ __('Register') }}</div>            
 			<div class="content-bottom">
 
                     @isset($url)
@@ -143,6 +147,11 @@
 					</ul>
 				</form>
 			</div>
+			<!--===================================praxis_sb  admin register form end ===================================-->
+
+
+
+        <!--===================================praxis_sb  admin term and condition start ===================================-->
 		</div>
 		<div class="bottom-grid1">
 			<div class="links">
@@ -160,10 +169,13 @@
 			</div>
 			<div class="copyright">
 				<p>© 2019 IDB-BISEW. All rights reserved | Design by
-					<a href="http://creativeitbari.com">CreativeITbari</a>
+					<a href="#">Praxis</a>
 				</p>
 			</div>
 		</div>
+
+
+		<!--===================================praxis_sb  admin term and condition end ===================================-->
     </div>
 </section>
 
