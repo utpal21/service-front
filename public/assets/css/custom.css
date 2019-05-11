@@ -21,11 +21,23 @@ border-radius: 50%;
 	
 }
 .present{
-	background-color: gainsboro;
+	background-color: #f1f2f2;
 }
 .mycolor{
-	background-color: gainsboro;
+	background-color: #f1f2f2;
 }
 .bg{
     background-color: #343a40;
 }
+/* ////////////////////////////////////////////////////profile///////////////////////////////////////// */
+.praxis-sb-border{
+	border: 2px solid gainsboro;
+	border-radius: 25%;
+   
+	margin: 10px;
+  }
+  .praxis-sb-image{
+  border-radius: 50%;
+  
+ 
+  }

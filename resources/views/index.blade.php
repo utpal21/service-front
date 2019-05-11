@@ -40,6 +40,10 @@ h2{
 
 	background-image: linear-gradient(0deg,#11c9e1 25%,#0798bf);
 }
+.pclass{
+	margin: 0;
+}
+
 
 </style>
 </head>
@@ -81,7 +85,7 @@ h2{
     </nav>
 		
 	</div>
-<br>
+
 <!--===================================menu end===================================-->
 <!--===================================search start===================================-->
 <div class="praxis_sb_search">
@@ -96,7 +100,7 @@ h2{
 	</div>
 
 </div>
-<br>
+
 <!--===================================search end===================================-->
 
 
@@ -134,36 +138,39 @@ h2{
 											 </li>
 
 	</ul> -->
-	<div class="container d-flex justify-content-center ">
-<ul class="nav">
-	<li class="nav-item"><a class="" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="fa fa-balance-scale" style="font-size:60px;color:gray;margin-left: 2px;"></i><p>Best deal</p>
+	<div class="container">
+<ul class="nav nav-tabs d-flex justify-content-around">
+	<li class="nav-item"><a class="nav-item nav-link" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><img src="{{asset('images/1536068746_best_deal.png')}}" height="54px" width="54px" alt=""><p class="pclass">Best deal</p>
 	
-		</a></li>&nbsp;&nbsp;
-		<li class="nav-item"><a class="" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="fa fa-briefcase" style="font-size:60px;color:forestgreen;margin-left: 35px;"></i><p>Beauty Services</p>
-			</a></li>&nbsp;&nbsp;&nbsp;
-			<li class="nav-item"><a class="" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="fa fa-birthday-cake" style="font-size:60px;color:rgb(119, 161, 56)"></i><p>Food</p>
-			</a></li>&nbsp;&nbsp;&nbsp;
-			<li class="nav-item"><a class="" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="fa fa-bus" style="font-size:60px;color:peru;margin-left: 20px;"></i><p> Services2</p>
-			</a></li>&nbsp;&nbsp;&nbsp;
-			<li class="nav-item"><a class="" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="fa fa-cogs" style="font-size:60px;color:khaki"></i><p> Services3</p>
-			</a></li>&nbsp;&nbsp;&nbsp;
-			<li class="nav-item"><a class="" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="fa fa-bed" style="font-size:60px;color:mediumturquoise"></i><p>Services5</p>
-			</a></li>&nbsp;&nbsp;&nbsp;
-			<li class="nav-item"><a class="" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="fa fa-bank" style="font-size:60px;color:greenyellow"></i><p>Services6</p>
-			</a></li>&nbsp;&nbsp;
-			<li class="nav-item"><a class="" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="fa fa-bicycle" style="font-size:60px;color:khaki"></i><p> Services7</p>
-			</a></li>&nbsp;&nbsp;
+		</a></li>
+		<li class="nav-item"><a class="nav-item nav-link" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><img src="{{asset('images/1536068746_best_deal.png')}}" height="54px" width="54px" alt=""><p class="pclass">Beauty Services</p>
+			</a></li>
+			<li class="nav-item"><a class="nav-item nav-link" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><img src="{{asset('images/1536068746_best_deal.png')}}" height="54px" width="54px" alt=""><p class="pclass">Food</p>
+			</a></li>
+			<li class="nav-item"><a class="nav-item nav-link" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><img src="{{asset('images/1536068746_best_deal.png')}}" height="54px" width="54px" alt=""><p class="pclass"> Services2</p>
+			</a></li>
+			<li class="nav-item"><a class="nav-item nav-link" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><img src="{{asset('images/1536068746_best_deal.png')}}" height="54px" width="54px" alt=""><p class="pclass"> Services3</p>
+			</a></li>
+			<li class="nav-item"><a class="nav-item nav-link" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><img src="{{asset('images/1536068746_best_deal.png')}}" height="54px" width="54px" alt=""><p class="pclass">Services5</p>
+			</a></li>
+			<li class="nav-item"><a class="nav-item nav-link" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><img src="{{asset('images/1536068746_best_deal.png')}}" height="54px" width="54px" alt=""><p class="pclass">Services6</p>
+			</a></li>
+			<li class="nav-item"><a class="nav-item nav-link" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><img src="{{asset('images/1536068746_best_deal.png')}}" height="54px" width="54px" alt=""><p class="pclass"> Services7</p>
+			</a></li>
 			
 </ul>
 	
 		
 									</div>
 
-<div class="collapse multi-collapse praxis_sb_category  container mycolor"  id="multiCollapseExample1">
-		<table class="table d-flex ">
+<div class="praxis_sb_category  container "  >
+		<div class="row collapse mycolor" id="multiCollapseExample1">
+			
+			
+		
 
-<tr>
-	<td>
+
+<div class="col-4">
 		<a href=""> Both Hand Mehendi @BDT 190 ONLY!!</a><br>
 		<a href=""> Both Hand Mehendi @BDT 190 ONLY!!</a><br>
 		<a href=""> Both Hand Mehendi @BDT 190 ONLY!!</a><br>
@@ -172,30 +179,30 @@ h2{
 		<a href=""> Both Hand Mehendi @BDT 190 ONLY!!</a><br>
 		<a href=""> Both Hand Mehendi @BDT 190 ONLY!!</a><br>
 
-	</td>
-	<td>
-			<a href="" >Both Hand Mehendi @BDT 190 ONLY!!</a><br>
-		<a href="">   Both Hand Mehendi @BDT 190 ONLY!!</a><br>
-		<a href="">   Both Hand Mehendi @BDT 190 ONLY!!</a><br>
-		<a href="">   Both Hand Mehendi @BDT 190 ONLY!!</a><br>
-		<a href="">   Both Hand Mehendi @BDT 190 ONLY!!</a><br>
-		<a href="">   Both Hand Mehendi @BDT 190 ONLY!!</a><br>
-		<a href="">   Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+	</div>
+	<div class="col-4">
+			<a href=""> Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+			<a href=""> Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+			<a href=""> Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+			<a href=""> Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+			<a href=""> Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+			<a href=""> Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+			<a href=""> Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+	
+		</div>
+		<div class="col-4">
+				<a href=""> Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+				<a href=""> Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+				<a href=""> Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+				<a href=""> Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+				<a href=""> Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+				<a href=""> Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+				<a href=""> Both Hand Mehendi @BDT 190 ONLY!!</a><br>
+		
+			</div>
 
-	</td>
-	<td>
-	<a href="">Both Hand Mehendi @BDT 190 ONLY!!</a><br>
-	<a href="">Both Hand Mehendi @BDT 190 ONLY!!</a><br>
-	<a href="">Both Hand Mehendi @BDT 190 ONLY!!</a><br>
-	<a href="">Both Hand Mehendi @BDT 190 ONLY!!</a><br>
-	<a href="">Both Hand Mehendi @BDT 190 ONLY!!</a><br>
-	<a href="">Both Hand Mehendi @BDT 190 ONLY!!</a><br>
-
-	</td>
-</tr>
-
-		</table>
-</div><br>
+</div>
+</div>
 
 
 

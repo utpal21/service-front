@@ -1,0 +1,134 @@
+/* //////////////////////////////////praxis-sb-work-process///////////////////////////////// */
+#steps {
+    padding: 80px 0 70px 0;
+}
+
+.praxis-sb-work-process {
+    font-size: 36px;
+    font-weight: 600;
+    text-align: left;
+    color: #4a4a4a;
+}
+
+.praxis-sb-process-panel {
+    height: 127px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: solid 1px #f0f0f0;
+    padding: 20px;
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+.process-panel.active {
+    box-shadow: 0 10px 15px 1px rgba(0, 0, 0, 0.08);
+}
+
+.process-panel:hover {
+    box-shadow: 0 10px 15px 1px rgba(0, 0, 0, 0.08);
+}
+
+.praxis-sb-process-icon {
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+    width: 69px;
+    height: 69px;
+    border-radius: 40px;
+    border: solid 1px #c4c4c4;
+    color: #c4c4c4;
+}
+
+.praxis-sb-process-icon:hover,
+.praxis-sb-process-icon.active {
+    width: 69px;
+    height: 69px;
+    border: double 5px transparent;
+    border-radius: 50%;
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left, #2af598, #009efd);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+.praxis-sb-process-icon p {
+    line-height: 69px;
+    text-align: center;
+    color: #c4c4c4;
+    font-size: 16px;
+}
+
+.praxis-sb-process-icon.active p {
+    color: #2af598;
+    background: -webkit-linear-gradient(#2af598 0%, #009efd 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 61px;
+}
+
+.praxis-sb-process-icon p:hover {
+    line-height: 61px;
+    color: #2af598;
+    background: -webkit-linear-gradient(#2af598 0%, #009efd 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.praxis-sb-process-content h4 {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    color: #4a4a4a;
+}
+
+.praxis-sb-process-content span {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.31;
+    text-align: left;
+    color: #9b9b9b;
+}
+
+.praxis-sb-phone-skin {
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 536px;
+    width: 260px;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.praxis-sb-phone-skin .display-holder {
+    position: absolute;
+    top: 55px;
+    left: 14px;
+    right: 14px;
+    bottom: 70px;
+    overflow: hidden;
+}
+
+.praxis-sb-phone-skin .display-holder .display {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0;
+    bottom: 0px;
+    transition: 0.3s ease-in-out;
+    transform: translateY(-100%);
+}
+
+.praxis-sb-phone-skin .display img {
+    height: 100%;
+    width: 100%;
+}
+
+.praxis-sb-phone-skin .display.active {
+    z-index: 20;
+    transform: translateY(0%)
+}
+
+.praxis-sb-phone-skin .display.post-active {
+    z-index: 20;
+    transform: translateY(100%)
+}
+

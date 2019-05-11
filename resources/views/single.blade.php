@@ -57,7 +57,7 @@ body {
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">link</a>
+              <a class="nav-link" href="#">oo</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">link</a>
@@ -77,22 +77,10 @@ body {
     </nav>
 		
 	</div>
-<br>
+
 <!--===================================menu end===================================-->
 <!--===================================search start===================================-->
-<div class="praxis_sb_search">
-	<div class="input-group container">
-  
-		<input type="search" placeholder="Service Name"  class="form-control">
-		<input type="search" placeholder="Location" class="form-control">
-		<div class="input-group-prepend">
-			<button type="submit"><i class="ti-search"></i></button>
-			
-		</div>
-	</div>
 
-</div>
-<br>
 <!--===================================Category list start===================================--> 
 <div class="shad">
 </div>

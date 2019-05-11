@@ -19,9 +19,10 @@ Route::view('/', 'index');
     Route::view('/home', 'home')->middleware('auth');
     Route::get('/profile', 'ProfileController@index')->name('profile')->middleware('auth');
     Route::post('/profile/update', 'ProfileController@updateProfile')->name('profile.update')->middleware('auth');
-  
+  //service font
     Route::get('/single', 'serviceController@index')->name('single');
     Route::get('/show', 'serviceController@show')->name('show');
+    Route::get('/profile', 'serviceController@profile')->name('profile');
 
 
 
